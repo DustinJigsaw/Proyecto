@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "aptoFisico", "aptoFisico\", "{3B00293B-0FDC-4F7C-84A2-5288B258DAD5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52248"
+		Debug.AspNetCompiler.PhysicalPath = "aptoFisico\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52248\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52248"
+		Release.AspNetCompiler.PhysicalPath = "aptoFisico\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52248\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52248"
+		SlnRelativePath = "aptoFisico\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B00293B-0FDC-4F7C-84A2-5288B258DAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B00293B-0FDC-4F7C-84A2-5288B258DAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDD6E6CA-AD16-4EBF-BFE6-FAB8DEF0194A}
+	EndGlobalSection
+EndGlobal
