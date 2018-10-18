@@ -108,6 +108,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Web\AlumnoyCurso.aspx" />
+    <Content Include="Web\AptoFisicoYMedico.aspx" />
+    <Content Include="Web\ObraSocial.aspx" />
+    <Content Include="Web\Usuario.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -182,6 +186,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Alumno.cs" />
+    <Compile Include="Modelo\AptoMedico.cs" />
+    <Compile Include="Modelo\Curso.cs" />
+    <Compile Include="Modelo\Login.cs" />
+    <Compile Include="Modelo\Medico.cs" />
+    <Compile Include="Modelo\ObraSocial.cs" />
+    <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -203,6 +214,22 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AlumnoyCurso.aspx.cs">
+      <DependentUpon>AlumnoyCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AptoFisicoYMedico.aspx.cs">
+      <DependentUpon>AptoFisicoYMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ObraSocial.aspx.cs">
+      <DependentUpon>ObraSocial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup />
